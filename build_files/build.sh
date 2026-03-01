@@ -13,12 +13,10 @@ set -ouex pipefail
 #dnf5 install -y tmux 
 
 rpm-ostree override remove \
-    # browsers
     firefox \
     firefox-langpacks \
     plasma-browser-integration \
     fedora-chromium-config-kde \
-    # kde utils
     khelpcenter \
     kcharselect \
     spectacle \
@@ -40,7 +38,6 @@ rpm-ostree override remove \
     plasma-discover-libs \
     plasma-discover-notifier \
     filelight \
-    # fcitx5
     fcitx5 \
     fcitx5-mozc \
     fcitx5-data \
@@ -67,13 +64,10 @@ rpm-ostree override remove \
     kcm-fcitx5 \
     libime \
     libime-data \
-    # journald
     kjournald \
     kjournald-libs \
-    # akonadi
     akonadi-server \
     akonadi-server-mysql \
-    # etc
     htop
 
 # Use a COPR Example:
