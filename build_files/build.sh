@@ -13,7 +13,11 @@ set -ouex pipefail
 #dnf5 install -y tmux 
 
 rpm-ostree override remove \
-	firefox
+	firefox \
+	firefox-langpacks \
+	khelpcenter \
+	krdc \
+	kcharselect
 
 # Use a COPR Example:
 #
