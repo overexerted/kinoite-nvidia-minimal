@@ -16,7 +16,6 @@ rpm-ostree override remove \
 	firefox \
 	firefox-langpacks \
 	khelpcenter \
-	krdc \
 	kcharselect
 
 # Use a COPR Example:
