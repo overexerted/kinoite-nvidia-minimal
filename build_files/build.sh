@@ -29,6 +29,9 @@ rpm-ostree override remove \
     kdebugsettings \
     kwalletmanager5 \
     kde-partitionmanager \
+    kdeconnectd \
+    kde-connect \
+    kde-connect-libs \
     kwrite \
     plasma-welcome \
     plasma-systemmonitor \
